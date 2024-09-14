@@ -16,28 +16,39 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Convertor" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0gL-qC-D88">
-                                <rect key="frame" x="138.33333333333334" y="96" width="116.33333333333334" height="66"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Sh-RO-nkl">
+                                <rect key="frame" x="37" y="89" width="320" height="216"/>
+                            </pickerView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dJ4-jK-jN7">
+                                <rect key="frame" x="146.33333333333334" y="401" width="100.33333333333334" height="50.333333333333314"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Convert" buttonSize="large"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ROt-Hm-dvl">
+                                <rect key="frame" x="176" y="657.66666666666663" width="41.333333333333343" height="20.333333333333371"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <pickerView contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SeH-V4-Cz8">
-                                <rect key="frame" x="37" y="380" width="320" height="162"/>
-                            </pickerView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="SeH-V4-Cz8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7Fv-y2-nfF"/>
-                            <constraint firstItem="0gL-qC-D88" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8kh-k1-cCR"/>
-                            <constraint firstItem="0gL-qC-D88" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Luh-vF-dHt"/>
-                            <constraint firstItem="SeH-V4-Cz8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lzZ-pz-WQh"/>
+                            <constraint firstItem="dJ4-jK-jN7" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="1hO-y1-DDG"/>
+                            <constraint firstItem="4Sh-RO-nkl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="B5O-n9-KMU"/>
+                            <constraint firstItem="dJ4-jK-jN7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="CY1-sB-81a"/>
+                            <constraint firstItem="ROt-Hm-dvl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DLE-KH-RkM"/>
+                            <constraint firstItem="dJ4-jK-jN7" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="PZH-3m-Cld"/>
+                            <constraint firstItem="dJ4-jK-jN7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Xiz-Dw-fJI"/>
+                            <constraint firstItem="4Sh-RO-nkl" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="lds-Jc-vCk"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ROt-Hm-dvl" secondAttribute="bottom" constant="140" id="lhj-hT-NxQ"/>
+                            <constraint firstItem="dJ4-jK-jN7" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="rJl-4i-Mk7"/>
+                            <constraint firstItem="ROt-Hm-dvl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uuk-J4-gQf"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="pickerview" destination="SeH-V4-Cz8" id="UPV-6D-Z3a"/>
-                        <outlet property="title" destination="0gL-qC-D88" id="29C-jo-pCh"/>
+                        <outlet property="resultlabel" destination="ROt-Hm-dvl" id="zb7-oy-W1M"/>
+                        <outlet property="sizePicker" destination="4Sh-RO-nkl" id="hCe-wX-kuG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
