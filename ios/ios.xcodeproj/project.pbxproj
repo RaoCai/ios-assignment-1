@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		393F9E382C96B60600A3EBA4 /* ConversionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 393F9E372C96B60600A3EBA4 /* ConversionViewController.swift */; };
 		395560B02C9021C1005E97D7 /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = 395560AF2C9021C1005E97D7 /* Size.swift */; };
 		3999087D2C900ADD00400A85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3999087C2C900ADD00400A85 /* AppDelegate.swift */; };
 		3999087F2C900ADD00400A85 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3999087E2C900ADD00400A85 /* SceneDelegate.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		393F9E372C96B60600A3EBA4 /* ConversionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionViewController.swift; sourceTree = "<group>"; };
 		395560AF2C9021C1005E97D7 /* Size.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Size.swift; sourceTree = "<group>"; };
 		399908792C900ADD00400A85 /* ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3999087C2C900ADD00400A85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				399908872C900ADE00400A85 /* LaunchScreen.storyboard */,
 				3999088A2C900ADE00400A85 /* Info.plist */,
 				395560AF2C9021C1005E97D7 /* Size.swift */,
+				393F9E372C96B60600A3EBA4 /* ConversionViewController.swift */,
 			);
 			path = ios;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				395560B02C9021C1005E97D7 /* Size.swift in Sources */,
+				393F9E382C96B60600A3EBA4 /* ConversionViewController.swift in Sources */,
 				399908812C900ADD00400A85 /* ViewController.swift in Sources */,
 				3999087D2C900ADD00400A85 /* AppDelegate.swift in Sources */,
 				3999087F2C900ADD00400A85 /* SceneDelegate.swift in Sources */,
